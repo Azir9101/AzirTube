@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' type='text/css' href='css/azir.css'>
+    <meta charset="utf-8">
+    <script src='https://code.jquery.com/jquery-1.12.4.min.js'></script>
+    <script src='js/search.js'></script>
+    <!--<script data-main='static/js/main.js' src='static/js/require.js'></script>-->
+</head>
+<body>
+    <div id='search_wrap'>
+        <input type='text' name='search_bar' id='search_text'>
+        <button onclick="search_result()"  value='검색' id='search_submit' >
+    </div>
+    <div id='content' class='contents_wrap'>
+        <div id='search_result_wrap'>
+        </div>
+    </div>
+    <div id='audio' class='contents_wrap'>
+        <div id='audio_wrap'>
+            <audio controls id='audio-player'>
+            </audio>
+        </div>
+    </div>
+</body>

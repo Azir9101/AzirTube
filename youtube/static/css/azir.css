@@ -1,0 +1,16 @@
+.contents_wrap{
+    display: inline-block;
+    width:500px;
+}
+#audio_player{
+    vertical-align: middle;
+    position: relative;
+}
+#search_text{
+    width:500px;
+    height:32px;
+}
+#search_submit{
+    width:30px;
+    height:32px;
+}
